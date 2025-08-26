@@ -1,6 +1,5 @@
 Edusity – College Website
-
-[Live Demo: edusity-collegesite.netlify.app]
+[Link: https://edusity-collegesite.netlify.app/]
 
 Edusity is a modern, responsive college website built using React.js.
 It includes multiple sections such as Programs, About Us, Testimonials, Campus, and Contact Us with a functional contact form for inquiries.
