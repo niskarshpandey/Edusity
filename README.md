@@ -1,16 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+Edusity – College Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: edusity-collegesite.netlify.app
 
-Currently, two official plugins are available:
+Edusity is a modern, responsive college website built using React.js.
+It includes multiple sections such as Programs, About Us, Testimonials, Campus, and Contact Us with a functional contact form for inquiries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+🎓 Programs Section – Displays available courses and programs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Edusity
->>>>>>> ee984e0efc72cef7bea077a0dae3c0658ebd65c2
+🏫 About Us Section – Highlights the institution's vision and mission
+
+🌍 Campus Section – Provides a virtual tour of the campus
+
+💬 Testimonials Section – Feedback from students and alumni
+
+📩 Contact Us Form – Users can send inquiries directly
+
+Tech Stack
+
+React.js – Frontend framework
+
+HTML5 – Structure
+
+CSS3 – Styling and layout
+
+JavaScript – Functionality and interactivity
+
+Installation & Setup
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+git clone https://github.com/niskarshpandey/Edusity.git
+
+# Navigate to the project folder
+cd Edusity
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+Deployment
+
+The project is deployed on Netlify.
+View the live version here:
+🔗 edusity-collegesite.netlify.app
+
+
+
+License
+
+This project is open-source and available under the MIT License.
