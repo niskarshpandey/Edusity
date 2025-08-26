@@ -1,5 +1,5 @@
 Edusity – College Website
-[Link: https://edusity-collegesite.netlify.app/]
+[Link: https://edusity-collegewebsite-react.netlify.app/]
 
 Edusity is a modern, responsive college website built using React.js.
 It includes multiple sections such as Programs, About Us, Testimonials, Campus, and Contact Us with a functional contact form for inquiries.
@@ -31,7 +31,7 @@ Installation & Setup
 Follow these steps to run the project locally:
 
 # Clone the repository
-git clone https://github.com/niskarshpandey/Edusity.git
+git clone https://edusity-collegewebsite-react.netlify.app/
 
 # Navigate to the project folder
 cd Edusity
