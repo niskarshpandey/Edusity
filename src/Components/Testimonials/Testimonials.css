@@ -1,0 +1,105 @@
+.testimonials {
+  margin: 80px;
+  padding: 0 80px;
+  position: relative;
+}
+
+.next-btn, .back-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  right: 0;
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  background: #212EA0;
+}
+
+.back-btn {
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden; /* yeh important hai */
+}
+
+.slider ul {
+  display: flex;
+  width: 400%;   /* 4 slides = 400% */
+  transition: 0.5s;
+}
+
+.slider ul li {
+  list-style: none;
+  width: 25%; /* 4 slides = 25% each */
+  padding: 20px;
+}
+
+.slide {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  border-radius: 10px;
+  color: #676767;
+  line-height: 1.5;
+}
+
+.slide img {
+  width: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid #212EA0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.user-info h3 {
+  color: #212EA0;
+}
+/* media query */
+@media (max-width:800px){
+  .testimonials{  
+    padding: 0 40px;
+  }
+  .next-btn, .back-btn{
+    padding: 10px;
+    width: 35px;
+  }
+  .testimonials ul li{
+    padding: 10px;
+  }
+  .slide{
+    padding: 10px;
+  }
+  .slide img{
+    width: 50px;
+    border: 3px solid #212EA0 ;
+  }
+}
+@media (max-width:500px){
+  .testimonials{
+    margin: 40px 0;
+    padding: 0 20px;
+  }
+  .next-btn, .back-btn{
+    padding: 8px;
+    width: 30px;
+  }
+  .testimonials ul li{
+    padding: 8px;
+  }
+  .slide{
+    padding: 8px;
+    font-size: 14px;
+  }
+  .slide img{
+    width: 40px;
+    border: 2px solid #212EA0 ;
+  }
+}

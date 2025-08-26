@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&family=Poppins:wght@500&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+body{
+  background: #F5F5F5;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  padding-left: 10%;
+  padding-right : 10%;
+ 
+}
+.btn{
+  background: #FFF;
+  color: #212121;
+  padding: 14px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn img{
+ width: 20px;
+ margin-left: 10px;
+}
+.btn.dark-btn{
+  background: #212ea0;
+  color: #FFF ;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* page ki height screen jitni */
+}
+
+/*------ media query ------ */
+@media (max-width:1200px){
+    .container{
+      padding-left: 5%;
+      padding-right : 5%;
+    }
+    .btn{
+      padding: 14px 22px;
+     
+    }
+}
